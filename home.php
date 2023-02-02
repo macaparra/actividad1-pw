@@ -11,7 +11,7 @@
     <h1>Ingrese los datos a los siguientes 5 Empleados: &#128590</h1>
     <form action="index.php" method="post" >
         <?php
-            $amount = 1;
+            $amount = 5;
             for($i=0;$i<$amount;$i++){
             echo"&#128590 Empleado ".$i+1;
         ?>
