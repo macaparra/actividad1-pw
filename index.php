@@ -6,7 +6,7 @@
     $edades = 0;
     $data = $_POST;
     $flag = false;    
-    $amount = 5;
+    $amount = 1;
         for($i=0;$i<$amount;$i++){
             if( !empty($data['genero'.$i])&&!empty($data['estado'.$i])&&!empty($data['sueldo'.$i])&&!empty($data['nombre'.$i])&&!empty($data['edad'.$i]) ) {
                 if($data['genero'.$i]==='femenino')

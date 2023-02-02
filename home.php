@@ -11,14 +11,14 @@
     <h1>Ingrese los datos a los siguientes 5 Empleados: &#128590</h1>
     <form action="index.php" method="post" >
         <?php
-            $amount = 5;
+            $amount = 1;
             for($i=0;$i<$amount;$i++){
             echo"&#128590 Empleado ".$i+1;
         ?>
             <div>
                 <br>
                 <label class="title" for="nombreid"> &#128204 Nombre y Apellido:</label> <br>
-                <input type="text" name="nombre<?php echo $i?>" id="nombreid" require="" pattern="[a-zA-Z]+" oninvalid="this.setCustomValidity('Solo puedes ingresar letas')"
+                <input type="text" name="nombre<?php echo $i?>" id="nombreid" require="" pattern="[a-z A-Z]+" oninvalid="this.setCustomValidity('Solo puedes ingresar letras')"
                 oninput="this.setCustomValidity('')" ><br><br>
             
                 <label class="title" for="edadid">&#128204 Edad:</label> <br>
